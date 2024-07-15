@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/imgs">
+        <file>Image/routegraph.jpg</file>
+        <file>Image/fengyuan.jpg</file>
+        <file>Image/gongzhujiao.jpg</file>
+        <file>Image/guiyuancaochang.jpg</file>
+        <file>Image/guoruanc3.jpg</file>
+        <file>Image/jisuanjixueyuan.jpg</file>
+        <file>Image/jiuyiercaochang.jpg</file>
+        <file>Image/leijunkejilou.jpg</file>
+        <file>Image/luojiaguangchang.jpg</file>
+        <file>Image/luojiamen.jpg</file>
+        <file>Image/luojiashan.jpg</file>
+        <file>Image/luoyumen.jpg</file>
+        <file>Image/nanermen.jpg</file>
+        <file>Image/songyuancaochang.jpg</file>
+        <file>Image/xinghutiyuchang.jpg</file>
+        <file>Image/xinxixuebuyijiao.jpg</file>
+        <file>Image/yingyuan.jpg</file>
+        <file>Image/xintu.jpg</file>
+        <file>Image/wanganxiaocaochang.jpg</file>
+        <file>Image/xincao.jpg</file>
+        <file>Image/shishe.jpg</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>Image/whu.ico</file>
+    </qresource>
+</RCC>

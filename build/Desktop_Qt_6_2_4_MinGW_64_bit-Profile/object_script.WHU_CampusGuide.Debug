@@ -1,0 +1,10 @@
+debug/introduction.o
+debug/main.o
+debug/mainwindow.o
+debug/securitysystem.o
+debug/touristwindow.o
+debug/qrc_res.o
+debug/moc_introduction.o
+debug/moc_mainwindow.o
+debug/moc_securitysystem.o
+debug/moc_touristwindow.o

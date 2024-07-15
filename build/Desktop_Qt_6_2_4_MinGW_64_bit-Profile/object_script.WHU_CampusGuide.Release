@@ -1,0 +1,10 @@
+release/introduction.o
+release/main.o
+release/mainwindow.o
+release/securitysystem.o
+release/touristwindow.o
+release/qrc_res.o
+release/moc_introduction.o
+release/moc_mainwindow.o
+release/moc_securitysystem.o
+release/moc_touristwindow.o

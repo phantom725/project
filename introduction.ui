@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Introduction</class>
+ <widget class="QDialog" name="Introduction">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>景点介绍</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>17</number>
+   </property>
+   <widget class="QWidget" name="gongzhujiao">
+    <widget class="QLabel" name="gongzhujiao_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/gongzhujiao.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="gongzhujiao_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#5500ff;&quot;&gt;介绍：传说，在WHU有座“公主教”每个前来探险的少年都会被公主的风采惊艳折服。南望珞珈山，北临东湖水，在旧校车的“主教学楼”站台旁这座南北朝向绿荫掩映的青灰色建筑，正是工学部主教学楼，六层高的主体、内凹式的宽阔广场，尽显一派恢宏气势。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="yingyuan">
+    <widget class="QLabel" name="yingyuan_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#5500ff;&quot;&gt;介绍：武大樱园，位于中国湖北武汉东湖之畔珞珈山上的武汉大学早期建筑。武大樱园是武汉大学傍狮子山而建的建筑群，建于民国十九年(公元1931年)，初名老斋舍，为彼时之学生宿舍，被列入国家重点文物保护单位。 &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#5500ff;&quot;&gt;每年3月欣赏樱花已成为百万江城人的春天盛事。想真正领略樱花的神韵，还是初暮夜色里，看樱花如云;月下漫步樱花大道，任落花如雨。每当寒冬过后，梅花凋谢之时，早樱开放，继而日本樱花、垂枝樱花、晚樱等开放。 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yingyuan_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/yingyuan.jpg</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="songyuancaochang">
+    <widget class="QLabel" name="songyuancaochang_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/songyuancaochang.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="songyuancaochang_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#5500ff;&quot;&gt;介绍：于2022年上半年翻新的松园操场，拥有平整松软的草皮、崭新的跑道，给同学们带来舒适惬意的运动体验。操场面朝东湖，晚上在这里跑步还有凉爽的东湖风作伴。此外，操场虽然位于工学部，但很靠近湖滨宿舍区，非常方便湖滨同学前去锻炼。&lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="jisuanjixueyuan">
+    <widget class="QLabel" name="jisuanjixueyuan_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#5500ff;&quot;&gt;介绍：武汉大学计算机学院是武汉大学的一个二级学院，武汉大学计算机学院是全国最早建立的计算机科学院系之一，教学与科研历史可追溯到1958年成立的计算技术专业。学院学科架构齐全，专业特色鲜明。拥有国家多媒体软件工程技术研究中心、网络安全国家级虚拟仿真实验教学中心、湖北软件评测中心等教学科研基地和平台。建设有总建筑面积4万多平方米的现代化计算机科学大楼。 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="jisuanjixueyuan_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/jisuanjixueyuan.jpg</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="guiyuancaochang">
+    <widget class="QLabel" name="guiyuancaochang_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/guiyuancaochang.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="guiyuancaochang_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#5500ff;&quot;&gt;介绍：桂操最突出的特点是方便!它位于文理学部各大教学楼的中心地段，成为许多同学夜跑的选择。踏进桂操，洋溢的生命气息便呼啸而来一一从广场舞、广播操到跳绳瑜伽一应俱全。夜晚的桂操可能是人流量最大的操场了，上至年过半百的老人，下至蹒跚学步的三岁小孩儿，更多的是或飞奔或快走的校园夜跑人。桂操也是诸如吉他弹唱、街舞炫技、百团大战等校园活动的首选举办场地，在这里，桂操满足你的一切需求。 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="jiuyiercaochang">
+    <widget class="QLabel" name="jiuyiercaochang_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'等线'; font-size:16pt; color:#5500ff;&quot;&gt;介绍：位于武汉大学行政楼前的九一二操场，又名奥场，毛主席在1958年9月12号接见了武昌几所大学的学生，九一二操场故此得名。九一二操场不仅正对武汉大学地标性建筑行政楼，气势恢弘;场地上更是设置有田径场、篮球场、排球场和一系列运动器材供大家使用。天气好的时候，更是举办校园音乐会的绝佳场地，浪漫夜晚里，动听的音乐声和运动更配。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="jiuyiercaochang_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/jiuyiercaochang.jpg</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="fengyuan">
+    <widget class="QLabel" name="fengyuan_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#5500ff;&quot;&gt;介绍：在武大校园的最深处，也就是珞珈之最东北端与东湖相联接的地方，就是我们朝夕生活其中的枫园。枫园这个名称的由来，大概就是因为沿山麓蜿蜒而伸进去的马路两旁那几十棵惹人喜爱的枫树。这段马路被命名为枫园路，位于珞珈山的北侧，弯弯曲曲地呈下坡状。马路往北，十多幢造型各异的宿舍楼依山势错落于茂密的绿树花草丛中。 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="fengyuan_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/fengyuan.jpg</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="leijunkejilou">
+    <widget class="QLabel" name="leijunkejilou_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/leijunkejilou.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="leijunkejilou_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'等线'; font-size:16pt; color:#5500ff;&quot;&gt;介绍：“武大雷军科技楼”是武汉大学里的一座大楼。 雷军科技楼位于武汉大学西门附近，与武大校友阎志捐建的卓尔体育馆毗邻。这是一栋回字形建筑，与武大校园建筑的琉璃瓦造型风格一致。 2023年6月20日下午，武汉大学人工智能教学科研大楼(雷军科技楼)举行竣工揭幕仪式。武汉大学党委书记黄泰岩、校长张平文，小米集团创始人、董事长雷军共同为雷军科技楼揭幕。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="luojiaguangchang">
+    <widget class="QLabel" name="luojiaguangchang_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'等线'; font-size:16pt; color:#5500ff;&quot;&gt;介绍：珞珈广场位于武汉大学文理学部第五教学楼前，东侧是武汉大学文理学部图书馆，生命科学学院和化学与分子学院，距武汉大学正门有100多米。珞珈广场是武汉大学最大的绿色广场，占地面积约5.9万平方米，其绿化面积在全国也居于首，是武汉大学的景点之一。珞珈广场有大面积的草坪其中还有片片小花点缀，有弯曲小路、有花有树、有长亭、有石凳是学生们放松、小憩的最佳场所。2008年珞珈广场的草坪全部经行了更新，种植了新的草种。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="luojiaguangchang_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/luojiaguangchang.jpg</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="luojiashan">
+    <widget class="QLabel" name="luojiashan_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#5500ff;&quot;&gt;介绍：珞珈山位于中国湖北省武汉市武昌区中部，东湖西南岸边，由十几个相连的小山组成，武汉大学就坐落在此。珞珈山山顶海拔118.5米，为东湖南岸临湖最高峰，山顶可远眺东湖全景和武汉景色。珞珈山属亚热带湿润季风气候，四季明显，植物茂盛，大部分植物由国立武汉大学引种。珞珈山名副其实遍地是名胜，现有周恩来故居，郭沫若、郁达夫、蒋介石别墅。 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="luojiashan_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/luojiashan.jpg</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="luojiamen">
+    <widget class="QLabel" name="luojiamen_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'宋体'; font-size:16pt; color:#5500ff;&quot;&gt;介绍：武汉大学珞珈门是武汉大学的标志性建筑之一，位于武汉大学正门，是进入校园的主要入口之一&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri','sans-serif'; font-size:16pt; color:#5500ff;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:16pt; color:#5500ff;&quot;&gt;每天迎接着来自四面八方的师生、游客和校友。无论是新生入学还是校友重返母校，经过珞珈门都象征着一种回归和开始。珞珈门以其独特的建筑风格和深厚的文化底蕴，成为了武汉大学乃至武汉市的重要地标。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="luojiamen_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/luojiamen.jpg</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="xinghutiyuguan">
+    <widget class="QLabel" name="xinghutiyuguan_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'宋体'; font-size:16pt; color:#5500ff;&quot;&gt;介绍：星湖体育场坐落在武汉大学的星湖区域，紧邻星湖，是武汉大学校园内的重要体育设施之一。体育场主要用于田径比赛、足球比赛、校内运动会及其他体育活动。此外，它也可以用于校外活动和公众开放日。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="xinghutiyuguan_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/xinghutiyuchang.jpg</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="xintu">
+    <widget class="QLabel" name="xintu_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/xintu.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="xintu_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#5500ff;&quot;&gt;武汉大学信息学部图书馆是武汉大学的重要学术资源中心之一，专注于信息科学和相关学科的研究与学习。图书馆藏书丰富，涵盖计算机科学、信息技术、电子工程等领域，拥有大量的书籍、期刊和电子资源。提供丰富的电子图书和数据库资源，支持学生和教师的在线学习和研究。设有自习室、讨论室等多种学习空间，满足不同的学习需求。图书馆提供专业的文献检索、资料获取等服务，帮助学生和教师进行科研活动。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="wanganxiaocaochang">
+    <widget class="QLabel" name="wanganxiaocaochang_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/wanganxiaocaochang.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="wanganxiaocaochang_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'宋体'; font-size:16pt; color:#5500ff;&quot;&gt;网安操场位于国软&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri','sans-serif'; font-size:16pt; color:#5500ff;&quot;&gt;c3&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:16pt; color:#5500ff;&quot;&gt;宿舍北方，目前正在整修，暂不对外开放。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="xincao">
+    <widget class="QLabel" name="xincao_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/xincao.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="xincao_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#5500ff;&quot;&gt;介绍：常见的设施包括标准的足球场和篮球场，适合进行足球、篮球等团体运动。操场周边设有健身器材或开阔的空地，供个人和小团体进行跑步、伸展等活动。操场周围通常绿树成荫，环境优美，有利于学生在锻炼中感受自然与运动的结合。武汉大学信息学部的操场不仅提供了学生体育锻炼的场所，还是学生们放松、社交和增强体魄的重要空间。它在丰富校园生活、促进学术和身体健康方面发挥着重要作用。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="shishe">
+    <widget class="QLabel" name="shishe_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/shishe.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="shishe_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'宋体'; font-size:16pt; color:#5500ff;&quot;&gt;介绍：&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri','sans-serif'; font-size:16pt; color:#5500ff;&quot;&gt;10&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:16pt; color:#5500ff;&quot;&gt;舍目前是电子信息学院学生的宿舍，每个房间配备有基本的床铺、书桌、椅子和衣柜等基础家具，以及必要的生活设施，如洗手间和淋浴间。楼内设有公共休息区域和洗衣房，方便学生的日常生活和社交活动。&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri','sans-serif'; font-size:16pt; color:#5500ff;&quot;&gt;10&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:16pt; color:#5500ff;&quot;&gt;舍周围有&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri','sans-serif'; font-size:16pt; color:#5500ff;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:16pt; color:#5500ff;&quot;&gt;食堂、珞珈自强超市和其他基础设施，为学生提供生活所需的便利条件。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="guoruanc3">
+    <widget class="QLabel" name="guoruanc3_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#5500ff;&quot;&gt;介绍：武汉大学国际软件学院&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri','sans-serif'; font-size:14pt; color:#5500ff;&quot;&gt;C3&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#5500ff;&quot;&gt;宿舍位于校园内特定区域，紧邻国际软件学院教学楼，便于学生上课和学习。&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri','sans-serif'; font-size:14pt; color:#5500ff;&quot;&gt;C3&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#5500ff;&quot;&gt;宿舍提供的是上床下桌的&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri','sans-serif'; font-size:14pt; color:#5500ff;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#5500ff;&quot;&gt;人寝，每个学生都有独立的学习和生活空间。每个宿舍都配备有独立卫生间，提供洗浴设施，方便学生日常生活。宿舍已经进行了热水改造工程，确保学生在冬季也能有热水使用。宿舍区域内提供网络覆盖，方便学生进行在线学习和娱乐。&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri','sans-serif'; font-size:14pt; color:#5500ff;&quot;&gt;C3&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#5500ff;&quot;&gt;宿舍周围环境整洁，绿化良好，为学生提供了一个舒适的居住环境。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="guoruanc3_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/guoruanc3.jpg</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="xinxixuebuyijiao">
+    <widget class="QLabel" name="xinxixuebuyijiao_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/xinxixuebuyijiao.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="xinxixuebuyijiao_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'宋体'; font-size:16pt; color:#5500ff;&quot;&gt;信息学部主教因为外表偏青的颜色被大家称为“青楼”，其位于信息学部操场和友谊广场之间。走进武汉大学南大门，正前方的第一栋教学楼就是青楼。连在一起的信息学部&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri','sans-serif'; font-size:16pt; color:#5500ff;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:16pt; color:#5500ff;&quot;&gt;号教学楼和&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri','sans-serif'; font-size:16pt; color:#5500ff;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:16pt; color:#5500ff;&quot;&gt;号教学楼都是青楼的一部分。青楼教室很多，也是信部学生上课的主要地点。走廊设有热水机，教室内有空调，是图书馆以外的一个不错的自习地点。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="nanermen">
+    <widget class="QLabel" name="nanermen_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'宋体'; font-size:16pt; color:#5500ff;&quot;&gt;介绍：珞南二门位于武汉大学信息学部南部，为校园的主要出入口之一。这座门户通常设计简洁，以方便师生和访客出入校园。从珞南二门出来，可以方便地到达周边的商业区、公交站和地铁站，是校内外人士常用的出入口之一。它是连接校园与外部社区的桥梁，为师生提供了便捷和舒适的校园生活环境。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="nanermen_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/nanermen.jpg</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="luoyumen">
+    <widget class="QLabel" name="luoyumen_text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>800</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#5500ff;&quot;&gt;介绍：珞瑜门位于武汉大学的信息学部南端。门内是友谊广场，为学生和教职工提供了广阔的活动空间。门外是珞喻路，这条道路是连接校园与周边区域的重要交通干线。从珞瑜门出入，可以方便地到达周边的商业区、公交站和地铁站，是校内师生和校外访客常用的出入通道。出门向左可到达广八路，沿此路可探索周边的餐饮、购物等便利设施。总的来说，珞瑜门不仅是一座实用的校园门户，还承载着武汉大学的历史与文化，是校园生活中不可或缺的一部分。无论是日常通行还是校园活动，珞瑜门都发挥着重要的作用。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="luoyumen_pic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="res.qrc">:/imgs/Image/luoyumen.jpg</pixmap>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
